@@ -1,0 +1,93 @@
+.body {
+    margin: 0;
+    height: 2000px;
+}
+
+.App-header {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(253, 253, 253);
+    justify-content: center;
+    align-items: center;
+}
+
+.App-body {
+    width: 100%;
+    height: 370px;
+    background-color: rgb(40, 30, 38);
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+@media screen and (max-width: 425px) {
+    .App-body {
+        height: 400px;
+        background-color: rgb(40, 30, 38);
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding-left: 5%;
+    }  
+}
+
+.App-footer {
+    /* width: 100%; */
+    height: 180px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.row {
+    /* margin-left: 0px !important; */
+    margin-right: 0px !important;
+}
+
+@media screen and (max-width: 425px) {
+    .form {
+        margin-top: 10px;
+        margin-left: 5%;
+        padding-left: 5%;
+        padding-right: 5%;  
+        width: 365px;
+        height: 600px;
+        background-color: #2a3848;
+        color: white;
+        border-radius: 5px;
+    }
+  }
+
+  @media screen and (min-width: 426px) {
+    .form {
+        margin-top: 30px;
+        margin-left: 65%;
+        padding: 1%;
+        width: 370px;
+        height: 570px;
+        background-color: #2a3848;
+        position: absolute;
+        color: white;
+        border-radius: 5px;
+    }
+  }
+
+h4 {
+    text-align: center;
+}
+
+h7 {
+    font-style: italic;
+    font-size: small;
+}
+
+@media screen and (max-width: 425px) {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+font {
+    margin-left: 50%;
+}
